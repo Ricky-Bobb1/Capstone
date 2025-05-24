@@ -1,0 +1,10 @@
+version: '3'
+services:
+  webapp:
+    image: nginx
+    ports:
+      - "8080:80"
+  ehr:
+    image: httpd
+    ports:
+      - "8081:80"
